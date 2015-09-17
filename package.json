@@ -1,0 +1,50 @@
+{
+  "name": "express-sketch",
+  "version": "0.0.1",
+  "description": "Sketch for express based app with MongoDB and redis",
+  "main": "run.js",
+
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "iconf": "*",
+    "jade": "*",
+    "async": "*",
+    "fs-extra": "*",
+    "errorhandler": "*",
+
+    "stylus": "*",
+    "autoprefixer-stylus": "*",
+
+    "browserify": "*",
+    "browserify-middleware": "*",
+    "brfs": "*",
+
+    "alt-auth": "*",
+    "alt-session": "*",
+    "alt-xsrf": "*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "multer": "*",
+
+    "debug": "*"
+  },
+
+  "devDependencies": {
+    "eslint": "0.20.0"
+  },
+
+  "scripts": {
+    "install": "node tools/ensureSymlinks",
+    "start": "node run.js"
+  },
+
+  "keywords": [
+    "Sketch",
+    "express",
+    "MongoDB",
+    "Redis"
+  ],
+  "author": "Valery Aligorsky",
+  "license": "ISC"
+}

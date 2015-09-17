@@ -1,0 +1,23 @@
+{
+  "env": {
+    "node": false,
+    "browser": false
+  },
+  "globals": {
+    "require": false,
+    "module": false,
+    "exports": true,
+    "__dirname": false,
+
+    "setTimeout": false,
+    "clearTimeout": false,
+    "setInterval": false,
+    "clearInterval": false,
+
+    "console": false
+  },
+  "rules": {
+    "strict": 0,
+    "no-alert": 0
+  }
+}
