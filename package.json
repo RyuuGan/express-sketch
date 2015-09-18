@@ -31,7 +31,13 @@
   },
 
   "devDependencies": {
-    "eslint": "0.20.0"
+    "eslint": "0.20.0",
+    "gulp": "*",
+    "gulp-browserify": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-stylus": "*",
+    "gulp-autoprefixer": "*"
   },
 
   "scripts": {
